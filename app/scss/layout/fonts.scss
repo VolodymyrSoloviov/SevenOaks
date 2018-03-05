@@ -1,3 +1,13 @@
+//Proxima Nova light
+@font-face {
+  font-family: 'Proxima';
+  src: url('../../fonts/ProximaNova-Light.woff') format('woff'),
+       url('../../fonts/ProximaNova-Light.svg#ProximaNova-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+
 //Proxima Nova regular
 @font-face {
   font-family: 'ProximaNova';
@@ -15,6 +25,16 @@
   font-weight: 600;
   font-style: normal;
 }
+
+//Proxima Nova bold
+@font-face {
+  font-family: 'ProximaNova';
+  src: url('../../fonts/ProximaNova-Bold.woff') format('woff'),
+       url('../../fonts/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+
 
 //Font awesome
 @font-face {

@@ -26,7 +26,7 @@ const replace = require('gulp-replace');
 const isDevelopment = !process.env.NODE_ENV || process.env.NODE_ENV == 'development';
 // Пути к нашим модулям JS
 var moduleJs = [
-  'app/js/first.js', 
+  'app/js/search.js', 
   'app/js/second.js', 
   'app/js/third.js', 
   'app/js/main.js'
