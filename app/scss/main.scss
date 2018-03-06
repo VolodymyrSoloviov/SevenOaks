@@ -4,7 +4,6 @@ $container-width: 1000px;
 $white: #fff;
 $green: #668333;
 $gray: #5f5f5f;
-$red: #f1715e;
 
 //layout
 @import "layout/adjustment";
@@ -12,8 +11,8 @@ $red: #f1715e;
 
 //sections
 @import "sections/header";
-@import "sections/two";
-@import "sections/three";
+@import "sections/about";
+@import "sections/footer";
 
 //media
 @import "media/tv";
