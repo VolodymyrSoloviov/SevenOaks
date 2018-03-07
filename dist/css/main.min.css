@@ -308,4 +308,109 @@ h6 {
   color: #599fb3;
   transition: .3s; }
 
+.footer {
+  background-color: #525252;
+  padding: 33px 0; }
+
+.footer__top {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #6b6b6a; }
+
+.footer__title {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #f3eeea;
+  margin-bottom: 25px; }
+
+.footer__sign-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #f3eeea;
+  font-size: 18px;
+  display: block;
+  height: 37px;
+  width: 274px;
+  border-radius: 5px;
+  background-color: #4999af;
+  text-align: center;
+  padding-top: 5px;
+  transition: .3s; }
+  .footer__sign-link:hover {
+    background-color: #078baf; }
+
+.footer__top-right {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  width: 630px; }
+
+.footer__service-time {
+  font-weight: 600;
+  font-size: 20px;
+  color: #f3eeea; }
+
+.footer__service-text {
+  font-size: 12px;
+  color: #b3b3b3; }
+
+.footer__socials {
+  margin-right: 56px; }
+
+.footer__socials-list {
+  display: -ms-flexbox;
+  display: flex; }
+
+.footer__socials-item {
+  margin-right: 8px;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  transition: .3s; }
+  .footer__socials-item:last-child {
+    margin-right: 0; }
+  .footer__socials-item:hover {
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px white; }
+
+.footer__socials-link {
+  display: block;
+  width: 100%;
+  height: 100%; }
+
+.footer__socials-item_facebook {
+  background-image: url("../img/icons/facebook.png"); }
+
+.footer__socials-item_twitter {
+  background-image: url("../img/icons/twitter.png"); }
+
+.footer__socials-item_youtube {
+  background-image: url("../img/icons/youtube.png"); }
+
+.footer__socials-item_paypal {
+  background-image: url("../img/icons/paypal.png"); }
+
+.footer__socials-item_email {
+  background-image: url("../img/icons/email.png"); }
+
+.footer__bottom {
+  margin-top: 15px; }
+
+.copyright {
+  font-size: 12px;
+  color: #b3b3b3; }
+
+.footer__privacy-link,
+.footer__share-link {
+  text-decoration: none;
+  color: #b3b3b3;
+  transition: .3s; }
+  .footer__privacy-link:hover,
+  .footer__share-link:hover {
+    color: #fff; }
+
 /*# sourceMappingURL=maps/main.min.css.map */
