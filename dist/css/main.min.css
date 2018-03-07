@@ -248,9 +248,10 @@ h6 {
   display: flex; }
 
 .header__banner-text {
+  min-width: 323px;
   font-weight: 700;
   font-size: 34px;
-  padding: 20px;
+  padding: 7px 20px;
   background-color: rgba(27, 127, 155, 0.8); }
 
 .about {
@@ -309,8 +310,7 @@ h6 {
   transition: .3s; }
 
 .header__banner_media {
-  width: 460px;
-  line-height: 1.2; }
+  width: 460px; }
 
 .header__banner-text span {
   font-weight: 300; }
@@ -342,7 +342,11 @@ h6 {
   -ms-flex-pack: end;
       justify-content: flex-end;
   height: 200px;
-  width: 320px; }
+  width: 320px;
+  filter: grayscale(70%);
+  transition: .3s; }
+  .media__item:hover {
+    filter: grayscale(0); }
 
 .media__item_stories .media__link:hover {
   background-color: rgba(27, 127, 155, 0.8); }
@@ -489,6 +493,83 @@ h6 {
   transition: .3s; }
   .media__sevenoaks-link:hover {
     color: #668333; }
+
+.events {
+  background-color: #f3eeea;
+  padding: 30px 0; }
+
+.events__list {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
+
+.events__item {
+  width: 320px;
+  height: 250px;
+  margin-bottom: 20px; }
+
+.events__link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: #fff; }
+  .events__link:hover .events__img {
+    filter: grayscale(0); }
+
+.events__pic {
+  width: 100%;
+  height: 200px;
+  overflow: hidden; }
+
+.events__img {
+  max-width: 100%;
+  height: auto;
+  filter: grayscale(70%);
+  transition: .3s; }
+
+.events__bottom {
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 50px; }
+
+.events__bottom-left {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  width: 250px;
+  background-color: #f1715e; }
+
+.events__text {
+  text-transform: uppercase;
+  font-size: 17px;
+  margin-left: 18px; }
+
+.events__bottom-right {
+  width: 75px;
+  background-color: #668333; }
+
+.events__date {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  width: 100%;
+  height: 100%;
+  font-size: 17px;
+  line-height: 1; }
+
+.events__mon {
+  text-transform: uppercase; }
 
 .footer {
   background-color: #525252;

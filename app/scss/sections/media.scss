@@ -1,6 +1,5 @@
 .header__banner_media {
 	width: 460px;
-	line-height: 1.2;
 }
 
 .header__banner-text {
@@ -32,6 +31,12 @@
 	justify-content: flex-end;
 	height: 200px;
 	width: 320px;
+	filter: grayscale(70%);
+	transition: .3s;
+
+	&:hover {
+		filter: grayscale(0);
+	}
 }
 
 .media__item_stories {
