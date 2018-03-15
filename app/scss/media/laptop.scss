@@ -1,5 +1,48 @@
-// @media screen and (max-width: 992px) {
-// 	.container {
-// 		width: 730px;
-// 	}
-// }
+@media screen and (max-width: 992px) {
+	.container {
+		width: 730px;
+	}
+
+	.nav__item{
+		margin-right: 50px;
+	}
+
+	.footer__socials {
+		margin-right: 0;
+	}
+
+	.footer__sign {
+    margin-right: 50px;
+	}
+
+	.footer__sign-link {
+		width: 210px;
+	}
+
+	.media__title {
+		font-size: 25px;
+	}
+
+	.media__item {
+		width: 240px;
+	}
+
+	.media__link {
+		justify-content: center;
+		width: 100%;
+		padding-left: 0;
+	}
+
+	.events__list,
+	.shop__list {
+		justify-content: space-around;
+	}
+
+	.scroll-btn, {
+		right: 30px;
+	}
+
+	.scroll-btn__active {
+		bottom: 30px;
+	}
+}
